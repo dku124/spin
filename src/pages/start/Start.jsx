@@ -1,9 +1,10 @@
 import React from 'react';
+import { Button } from 'reactstrap';
 
 const Start = () => {
   return (
     <div>
-      Start
+     <Button color="primary">Click Me</Button>
     </div>
   );
 };
