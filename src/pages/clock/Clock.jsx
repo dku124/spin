@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Clock extends Component {
-  render() {
-    return (
-      <div>
-        Clock
-      </div>
-    );
-  }
-}
+const Clock = () => {
+  return (
+    <div>
+      Clock
+    </div>
+  );
+};
 
 export default Clock;
